@@ -1,0 +1,84 @@
+.weather-container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #4a69bd, #78e08f); /* Gradient Background */
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    font-family: "Arial", sans-serif;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Main Weather Section */
+  h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .weather-details {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  
+  .weather-icon {
+    width: 100px;
+    margin-top: 10px;
+  }
+  
+  /* Temperature Styling */
+  .temperature {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  /* Date and Day Styling */
+  .date {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .date span {
+    font-size: 16px;
+    font-weight: lighter;
+  }
+  
+  /* Extra Weather Info */
+  .extra-info {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  /* Daily Forecast Section */
+  .daily-forecast {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+  }
+  
+  .forecast-card {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .forecast-card .day {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .forecast-card img {
+    width: 40px;
+  }
+  
+  .forecast-card p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  

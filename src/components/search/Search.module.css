@@ -1,0 +1,66 @@
+/* Main Container */
+.container {
+  width: 400px;
+  margin: 30px auto;
+  background: linear-gradient(to bottom, #6a85b6, #bac8e0);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color:#3b5998;
+  margin-bottom: 15px;
+}
+
+/* Search Form */
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Input Field */
+.input {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input:focus {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
+
+/* Search Button */
+.button {
+  background: #3b5998;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.button:hover {
+  background: #2e4677;
+}
+
+/* Error Message */
+.error {
+  color: #ff4d4d;
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: bold;
+}
