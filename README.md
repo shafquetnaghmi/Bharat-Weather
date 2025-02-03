@@ -19,5 +19,5 @@ A weather forecasting app that allows users to search for weather information by
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Bharat-Weather-App.git
+   git clone https://github.com/shafquetnaghmi/Bharat-Weather.git
    cd Bharat-Weather-App
